@@ -1,0 +1,79 @@
+@import "../../defaultStyles.module.scss";
+
+// header styling
+.LandingPageHeader {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  border: none;
+  align-items: center;
+}
+.headerLeftBrandName {
+  display: flex;
+  align-items: center;
+}
+.companyBrandLogo {
+  background-image: url("../../assets/r.png");
+  height: 50px;
+  width: 50px;
+  background-size: cover;
+}
+.LandingPageHeader h3 {
+  font-weight: 900;
+}
+.headerRightButtons {
+  margin-right: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+.headerRightButtons button {
+  margin-right: 1rem;
+}
+.findJobsButton {
+  padding: 0.6rem 2rem;
+  background: rgb(208, 43, 141);
+  background: linear-gradient(
+    90deg,
+    rgba(208, 43, 141, 1) 0%,
+    rgba(245, 175, 25, 1) 100%
+  );
+  border: 1px solid rgb(208, 43, 141);
+
+  border-radius: 30px;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+.findJobsButton:hover {
+  padding: 0.6rem 2rem;
+  background: rgba(233, 68, 167, 0.947);
+  background: linear-gradient(
+    90deg,
+    rgba(233, 68, 167, 0.947) 0%,
+    rgba(245, 175, 25, 1) 100%
+  );
+  border: 1px solid rgb(208, 43, 141);
+
+  border-radius: 30px;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+.hireTalentButton {
+  padding: 0.6rem 2rem;
+  background: white;
+  border: 1px solid rgb(208, 43, 141);
+  border-radius: 30px;
+  color: rgb(208, 43, 141);
+  font-weight: 700;
+  cursor: pointer;
+}
+.hireTalentButton:hover {
+  padding: 0.6rem 2rem;
+  background: rgba(245, 240, 240, 0.778);
+  border: 1px solid rgb(208, 43, 141);
+  border-radius: 30px;
+  color: rgb(208, 43, 141);
+  font-weight: 700;
+  cursor: pointer;
+}

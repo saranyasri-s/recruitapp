@@ -113,3 +113,40 @@
 .mainIntroButtons .findJobsButton {
   border: 1px solid white;
 }
+// paths
+.paths {
+  margin: 2rem;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+}
+.usualPath {
+  display: flex;
+  flex-flow: column;
+  h3 {
+    margin: 2rem;
+  }
+  .img {
+    width: 500px;
+    height: 500px;
+    background-image: url(../../assets/usual_path-removebg-preview.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+.rightPath {
+  display: flex;
+  flex-flow: column;
+  h3 {
+    margin: 2rem;
+    color: rgb(208, 43, 141);
+  }
+  .img {
+    width: 500px;
+    height: 500px;
+    background-image: url(../../assets/rightpath-removebg-preview.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}

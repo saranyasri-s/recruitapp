@@ -32,6 +32,12 @@ function SignUp() {
         <label>Pincode</label>
         <input type="number" placeholder="Pincode"></input>
         <button>Sign up</button>
+        <p>
+          Registered already?
+          <span style={{ color: "rgb(208, 43, 141)", cursor: "pointer" }}>
+            Login now
+          </span>
+        </p>
       </form>
     </div>
   );

@@ -31,23 +31,8 @@
     padding: 0.4rem;
     border: 1px solid #8080804d;
     border-radius: 4px;
-    margin: 0.3rem 0 1rem 0;
-  }
-  .phoneEmailInput {
-    margin-bottom: 0.1rem;
-  }
-  .verify {
-    text-align: start;
-    color: red;
-    font-size: small;
-    text-decoration: underline;
-    margin-bottom: 0.2rem;
-  }
-  textarea {
-    padding: 0.4rem;
-    border: 1px solid #8080804d;
-    border-radius: 4px;
     margin: 0.5rem 0 1rem 0;
+    outline: none;
   }
   button {
     padding: 0.6rem 2rem;

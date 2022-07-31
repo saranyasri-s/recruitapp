@@ -255,10 +255,12 @@
   flex-flow: row;
   justify-content: center;
   margin-top: 2rem;
+  flex-wrap: wrap;
 }
 .labelInput {
   display: flex;
   flex-flow: column;
+  flex-wrap: wrap;
   label {
     text-align: start;
   }
@@ -287,7 +289,7 @@
   font-size: 9px;
   cursor: pointer;
 }
-@media (min-width: 350px) {
+@media (min-width: 300px) {
   .searchButton {
     padding: 0.7rem 1.3rem;
     background: rgb(208, 43, 141);

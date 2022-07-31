@@ -60,10 +60,15 @@ function LandingPage() {
           </div>
         </div>
         <div>
-          <button className={classes.searchButton}>Search</button>
+          <button className={classes.searchButton}>
+            Search for candidates
+          </button>
         </div>
       </div>
       <div>
+        <Candidates></Candidates>
+        <Candidates></Candidates>
+        <Candidates></Candidates>
         <Candidates></Candidates>
       </div>
     </div>

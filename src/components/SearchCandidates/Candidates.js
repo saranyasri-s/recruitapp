@@ -10,7 +10,7 @@ function Candidates() {
     <div className={classes.card}>
       <header className={classes.cardHeader}>
         <div className={classes.headerRight}>
-          <div className={classes.img}>img</div>
+          <div className={classes.img}></div>
           <div className={classes.nameAndExp}>
             <h3>Hellen k john</h3>
             <p>7 years fulltime experience</p>
@@ -41,7 +41,7 @@ function Candidates() {
           <span>
             <GiMoneyStack></GiMoneyStack>
           </span>
-          <p>55L per year( 70 L per year expected)</p>
+          <p>55L per year(70 L per year expected)</p>
         </div>
         <div>
           <div className={classes.Reviews}>

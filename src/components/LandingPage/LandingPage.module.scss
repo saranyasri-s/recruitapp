@@ -119,6 +119,7 @@
   display: flex;
   flex-flow: row;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 .usualPath {
   display: flex;
@@ -127,8 +128,8 @@
     margin: 2rem;
   }
   .img {
-    width: 500px;
-    height: 500px;
+    width: 350px;
+    height: 350px;
     background-image: url(../../assets/usual_path-removebg-preview.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -139,11 +140,12 @@
   flex-flow: column;
   h3 {
     margin: 2rem;
+    margin-bottom: 0;
     color: rgb(208, 43, 141);
   }
   .img {
-    width: 500px;
-    height: 500px;
+    width: 350px;
+    height: 350px;
     background-image: url(../../assets/rightpath-removebg-preview.png);
     background-size: contain;
     background-repeat: no-repeat;

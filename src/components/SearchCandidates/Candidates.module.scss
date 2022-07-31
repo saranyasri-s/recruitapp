@@ -1,0 +1,81 @@
+.card {
+  width: 700px;
+  border: 1px solid rgba(128, 128, 128, 0.334);
+  border-radius: 6px;
+  padding: 1rem;
+
+  margin: 1rem auto;
+  padding-bottom: 0;
+}
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .headerRight {
+    display: flex;
+    div {
+      margin-right: 1rem;
+    }
+    .img {
+      background: url(../../assets/erson1.png);
+      height: 50px;
+      width: 50px;
+      background-size: cover;
+    }
+  }
+  .nameAndExp {
+    display: flex;
+    flex-flow: column;
+    p {
+      text-align: start;
+      color: grey;
+    }
+    h3 {
+      text-align: start;
+    }
+  }
+  button {
+    padding: 0.5rem 0.6rem;
+    background: rgb(208, 43, 141);
+    background: linear-gradient(
+      90deg,
+      rgba(208, 43, 141, 1) 0%,
+      rgba(245, 175, 25, 1) 100%
+    );
+    border: 1px solid rgb(208, 43, 141);
+
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    font-size: 12px;
+    cursor: pointer;
+  }
+}
+.cardMain {
+  padding: 1rem;
+  padding-bottom: 0;
+  div {
+    display: flex;
+    justify-content: start;
+    padding: 0.4rem 0;
+    color: grey;
+    p {
+      margin-left: 0.4rem;
+    }
+  }
+}
+.Reviews {
+  display: flex;
+  flex-flow: column;
+  padding-bottom: 0;
+  div {
+    font-size: 12px;
+    display: flex;
+    flex-flow: column;
+    text-align: start;
+    .reviewGiver {
+      padding: 0.3rem 0;
+      color: rgb(168, 121, 121);
+    }
+  }
+}

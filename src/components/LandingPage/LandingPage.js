@@ -1,5 +1,8 @@
 import React from "react";
+import Candidates from "../SearchCandidates/Candidates";
+import SearchCandidatesPage from "../SearchCandidates/SearchCandidatesPage";
 import classes from "./LandingPage.module.scss";
+
 function LandingPage() {
   return (
     <div>
@@ -40,6 +43,29 @@ function LandingPage() {
           </div>
         </div>
       </main>
+      <div>
+        <h3>Choose what kind of candidates you are looking for</h3>
+        <div className={classes.searchCard}>
+          <div className={classes.labelInput}>
+            <label>Type</label>
+            <input type="text" placeholder="Type in"></input>
+          </div>
+          <div className={classes.labelInput}>
+            <label> Sub Type</label>
+            <input type="text" placeholder="Type in"></input>
+          </div>
+          <div className={classes.labelInput}>
+            <label> Location</label>
+            <input type="text" placeholder="Type in"></input>
+          </div>
+        </div>
+        <div>
+          <button className={classes.searchButton}>Search</button>
+        </div>
+      </div>
+      <div>
+        <Candidates></Candidates>
+      </div>
     </div>
   );
 }

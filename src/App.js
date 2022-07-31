@@ -7,10 +7,10 @@ import SignUp from "./components/SignupPage/SignUp";
 function App() {
   return (
     <div className={classes.App}>
-      {/* <LandingPage></LandingPage> */}
+      <LandingPage></LandingPage>
       {/* <SignUp></SignUp> */}
       {/* <Login></Login> */}
-      <JobRegister></JobRegister>
+      {/* <JobRegister></JobRegister> */}
     </div>
   );
 }

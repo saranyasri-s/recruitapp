@@ -249,3 +249,69 @@
     }
   }
 }
+// search card
+.searchCard {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.labelInput {
+  display: flex;
+  flex-flow: column;
+  label {
+    text-align: start;
+  }
+  input {
+    padding: 0.4rem;
+    border: 1px solid #8080804d;
+    border-radius: 4px;
+    margin: 0.5rem 0 1rem 0;
+    outline: none;
+    margin-right: 1rem;
+  }
+}
+.searchButton {
+  padding: 0.3rem;
+  background: rgb(208, 43, 141);
+  background: linear-gradient(
+    90deg,
+    rgba(208, 43, 141, 1) 0%,
+    rgba(245, 175, 25, 1) 100%
+  );
+  border: 1px solid rgb(208, 43, 141);
+
+  border-radius: 10px;
+  color: white;
+  font-weight: 700;
+  font-size: 9px;
+  cursor: pointer;
+}
+@media (min-width: 350px) {
+  .searchButton {
+    padding: 0.7rem 1.3rem;
+    background: rgb(208, 43, 141);
+    background: linear-gradient(
+      90deg,
+      rgba(208, 43, 141, 1) 0%,
+      rgba(245, 175, 25, 1) 100%
+    );
+    border: 1px solid rgb(208, 43, 141);
+
+    border-radius: 20px;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 2rem;
+    cursor: pointer;
+  }
+  .searchButton:hover {
+    background: rgba(233, 68, 167, 0.947);
+    background: linear-gradient(
+      90deg,
+      rgba(233, 68, 167, 0.947) 0%,
+      rgba(245, 175, 25, 1) 100%
+    );
+    border: 1px solid rgb(208, 43, 141);
+  }
+}

@@ -14,23 +14,23 @@
 }
 .companyBrandLogo {
   background-image: url("../../assets/r.png");
-  height: 50px;
-  width: 50px;
+  height: 30px;
+  width: 30px;
   background-size: cover;
 }
 .LandingPageHeader h3 {
-  font-weight: 900;
+  font-weight: 700;
 }
 .headerRightButtons {
-  margin-right: 2rem;
+  margin-right: 0.3rem;
   display: flex;
   justify-content: space-around;
 }
 .headerRightButtons button {
-  margin-right: 1rem;
+  margin-right: 0.2rem;
 }
 .findJobsButton {
-  padding: 0.6rem 2rem;
+  padding: 0.3rem;
   background: rgb(208, 43, 141);
   background: linear-gradient(
     90deg,
@@ -39,13 +39,14 @@
   );
   border: 1px solid rgb(208, 43, 141);
 
-  border-radius: 30px;
+  border-radius: 10px;
   color: white;
   font-weight: 700;
+  font-size: 9px;
   cursor: pointer;
 }
 .findJobsButton:hover {
-  padding: 0.6rem 2rem;
+  padding: 0.3rem;
   background: rgba(233, 68, 167, 0.947);
   background: linear-gradient(
     90deg,
@@ -57,19 +58,22 @@
   border-radius: 30px;
   color: white;
   font-weight: 700;
+  font-size: 9px;
   cursor: pointer;
 }
 .hireTalentButton {
-  padding: 0.6rem 2rem;
+  padding: 0.3rem;
   background: white;
   border: 1px solid rgb(208, 43, 141);
   border-radius: 30px;
   color: rgb(208, 43, 141);
   font-weight: 700;
   cursor: pointer;
+  font-weight: 700;
+  font-size: 9px;
 }
 .hireTalentButton:hover {
-  padding: 0.6rem 2rem;
+  padding: 0.3rem;
   background: rgba(245, 240, 240, 0.778);
   border: 1px solid rgb(208, 43, 141);
   border-radius: 30px;
@@ -102,16 +106,19 @@
   }
 }
 .mainIntroButtons {
-  margin-right: 2rem;
+  margin-right: 1rem;
   display: flex;
   justify-content: center;
   margin: 0;
 }
 .mainIntroButtons button {
-  margin: 2rem 2rem;
+  margin: 1rem 1rem;
 }
 .mainIntroButtons .findJobsButton {
   border: 1px solid white;
+}
+.mainIntroButtons .hireTalentButton {
+  padding: 0.1rem 0.5rem;
 }
 // paths
 .paths {
@@ -150,5 +157,95 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+  }
+}
+@media (min-width: 450px) {
+  .companyBrandLogo {
+    background-image: url("../../assets/r.png");
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+  }
+  .LandingPageHeader h3 {
+    font-weight: 700;
+  }
+  .headerRightButtons {
+    margin-right: 0.6rem;
+    display: flex;
+    justify-content: space-around;
+  }
+  .headerRightButtons button {
+    margin-right: 0.5rem;
+  }
+  .findJobsButton {
+    padding: 0.7rem;
+    background: rgb(208, 43, 141);
+    background: linear-gradient(
+      90deg,
+      rgba(208, 43, 141, 1) 0%,
+      rgba(245, 175, 25, 1) 100%
+    );
+    border: 1px solid rgb(208, 43, 141);
+
+    border-radius: 30px;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+
+    cursor: pointer;
+  }
+  .findJobsButton:hover {
+    padding: 0.7rem;
+    background: rgba(233, 68, 167, 0.947);
+    background: linear-gradient(
+      90deg,
+      rgba(233, 68, 167, 0.947) 0%,
+      rgba(245, 175, 25, 1) 100%
+    );
+    border: 1px solid rgb(208, 43, 141);
+
+    border-radius: 30px;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+
+    cursor: pointer;
+  }
+  .hireTalentButton {
+    padding: 0.7rem;
+    background: white;
+    border: 1px solid rgb(208, 43, 141);
+    border-radius: 30px;
+    color: rgb(208, 43, 141);
+    font-weight: 700;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 14px;
+  }
+  .hireTalentButton:hover {
+    padding: 0.7rem;
+    background: rgba(245, 240, 240, 0.778);
+    border: 1px solid rgb(208, 43, 141);
+    border-radius: 30px;
+    color: rgb(208, 43, 141);
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .landinPageIntroCard {
+    .mainIntroButtons {
+      margin-right: 2rem;
+      display: flex;
+      justify-content: center;
+      margin: 0;
+    }
+    .mainIntroButtons button {
+      margin: 2rem 2rem;
+    }
+    .mainIntroButtons .findJobsButton {
+      border: 1px solid white;
+    }
+    .mainIntroButtons .hireTalentButton {
+      padding: 0.3rem 1rem;
+    }
   }
 }

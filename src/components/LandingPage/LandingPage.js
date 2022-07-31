@@ -8,7 +8,7 @@ function LandingPage() {
           <div className={classes.companyBrandLogo}></div> <h3> RecuitEasy</h3>
         </div>
         <div className={classes.headerRightButtons}>
-          <button className={classes.findJobsButton}>Find jobs</button>
+          <button className={classes.findJobsButton}>Register for jobs</button>
           <button className={classes.hireTalentButton}>Hire talent</button>
         </div>
       </header>
@@ -22,7 +22,9 @@ function LandingPage() {
             know about it
           </p>
           <div className={classes.mainIntroButtons}>
-            <button className={classes.findJobsButton}>Find jobs</button>
+            <button className={classes.findJobsButton}>
+              Register for jobs
+            </button>
             <button className={classes.hireTalentButton}>Hire talent</button>
           </div>
         </div>
@@ -33,7 +35,7 @@ function LandingPage() {
             <div className={classes.img}></div>
           </div>
           <div className={classes.rightPath}>
-            <h3>Recruit easy</h3>
+            <h3>RecruitEasy</h3>
             <div className={classes.img}></div>
           </div>
         </div>

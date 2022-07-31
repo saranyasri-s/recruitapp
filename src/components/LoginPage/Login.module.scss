@@ -49,7 +49,21 @@
     font-weight: 700;
     cursor: pointer;
   }
+  button:hover {
+    background: rgba(233, 68, 167, 0.947);
+    background: linear-gradient(
+      90deg,
+      rgba(233, 68, 167, 0.947) 0%,
+      rgba(245, 175, 25, 1) 100%
+    );
+    border: 1px solid rgb(208, 43, 141);
+  }
   p {
     margin: 1rem;
+  }
+}
+@media (min-width: 400px) {
+  .SignUpForm {
+    width: 400px;
   }
 }

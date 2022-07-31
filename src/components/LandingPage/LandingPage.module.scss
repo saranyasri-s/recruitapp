@@ -77,3 +77,39 @@
   font-weight: 700;
   cursor: pointer;
 }
+
+// mainpage styling
+.landinPageIntroCard {
+  padding: 4rem 2rem;
+  background: rgb(208, 43, 141);
+  background: linear-gradient(
+    90deg,
+    rgba(208, 43, 141, 1) 0%,
+    rgba(245, 175, 25, 1) 100%
+  );
+
+  display: flex;
+  flex-flow: column;
+  h3 {
+    color: white;
+    margin: 1rem 0;
+    font-size: 2rem;
+  }
+  p {
+    color: white;
+    padding: 1rem;
+    line-height: 150%;
+  }
+}
+.mainIntroButtons {
+  margin-right: 2rem;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+.mainIntroButtons button {
+  margin: 2rem 2rem;
+}
+.mainIntroButtons .findJobsButton {
+  border: 1px solid white;
+}
